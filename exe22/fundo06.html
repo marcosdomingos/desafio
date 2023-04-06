@@ -6,14 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anuncio Parati</title>
     <style>
-        header{
-            background-image: url("imagens/parati01");
+        body{
+            margin: 0;
+            padding: 0;
+            height: 96vh;
+            background-image: url('imagens/parati01.jpeg');
         }
+        header{
+            
+            width: 100%;
+            height: 10px;
+            padding: 20px;
+            background-image: linear-gradient(to right, rgba(201, 194, 194, 0.945), white)
+        }
+        h1{
+            text-align: center;
+            margin-top: 3px;
+            
+        }
+        nav{
+            background-image: linear-gradient(to right, rgba(201, 194, 194, 0.945), white);
+            width: 100%;
+            padding: 5px;
+        }
+        nav > a{
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        nav > a:hover{
+            background-color: rgba(119, 115, 115, 0.377);
+            color: red;
+        }
+            
     </style>
 </head>
 <body>
     <header>
-
+        <h1>Anúncio da Parati</h1>
     </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Notícias</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
 </body>
 </html>
